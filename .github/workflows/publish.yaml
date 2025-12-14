@@ -1,0 +1,23 @@
+name: publish
+on:
+  push:
+    branches:
+      - main
+jobs:
+  Publish-Portfolio:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      - name: Install pnpm
+        run: npm install -g pnpm
+      - name: setup node
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: 'package.json'
+      - name: Install dependencies
+        run: pnpm install
+      - name: Build project
+        run: pnpm build
+      - name: Deploy to GitHub Pages
+        run: pnpm run deploy
