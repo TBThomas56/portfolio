@@ -1,4 +1,4 @@
-name: publish
+name: github pages publish
 on:
   push:
     branches:
@@ -6,6 +6,8 @@ on:
 jobs:
   Publish-Portfolio:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
@@ -20,4 +22,7 @@ jobs:
       - name: Build project
         run: pnpm build
       - name: Deploy to GitHub Pages
-        run: pnpm run deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
