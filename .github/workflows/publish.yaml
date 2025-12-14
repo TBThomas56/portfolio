@@ -1,6 +1,6 @@
 name: publish
 on:
-  merge:
+  push:
     branches:
       - main
 jobs:
