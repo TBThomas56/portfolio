@@ -1,0 +1,21 @@
+name: dashboard
+on: [push, pull_request]
+
+jobs:
+  Frontend-CI:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      - name: Install pnpm
+        run: npm install -g pnpm
+      - name: setup node
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: 'package.json'
+      - name: Install dependencies
+        run: pnpm install
+      - name: Lint Checker
+        run: pnpm lint
+      - name: Formatter
+        run: pnpm format --check
