@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "private": true,
+  "homepage": "https://TBThomas56.github.io/portfolio/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -8,9 +8,11 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
