@@ -9,7 +9,9 @@
   "shell": {
     "init_hook": ["echo 'Welcome to devbox!' > /dev/null"],
     "scripts": {
-      "test": ["echo \"Error: no test specified. Please add your test with vite / jest etc\" && exit 1"]
+      "test": [
+        "echo \"Error: no test specified. Please add your test with vite / jest etc\" && exit 1"
+      ]
     }
   }
 }
