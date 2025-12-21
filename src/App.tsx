@@ -1,18 +1,16 @@
-import { useState } from "react";
+import "./App.css";
+import SideBar from "./components/Sidebar";
+import TopBar from "./components/TopBar";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className="App">
-      <header className="text-green-300">
-        <p>Hello Vite + React!</p>
-        <p>
-          <button onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </button>
-        </p>
-      </header>
+    <div>
+      <div>
+        <TopBar></TopBar>
+      </div>
+      <div>
+        <SideBar></SideBar>
+      </div>
     </div>
   );
 }
