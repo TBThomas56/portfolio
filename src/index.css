@@ -1,10 +1,14 @@
 @import "tailwindcss";
+@layer components {
+  #root {
+    @apply flex flex-col items-center justify-center min-h-screen pt-(--topbar-height) mt-4;
+  }
+}
 @plugin "daisyui";
 @plugin "daisyui/theme" {
   name: "night";
   default: false;
   prefersdark: true;
-  prefix: "daisy-"
   color-scheme: "dark";
   --color-base-100: oklch(20.768% 0.039 265.754);
   --color-base-200: oklch(19.314% 0.037 265.754);
