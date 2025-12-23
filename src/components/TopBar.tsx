@@ -1,4 +1,4 @@
-import logo from "../assets/logo.jpg";
+import logo from "/portfolio/assets/logo.jpg";
 import { PiReadCvLogo } from "react-icons/pi";
 import { VscGithub } from "react-icons/vsc";
 import { RiLinkedinBoxLine } from "react-icons/ri";
