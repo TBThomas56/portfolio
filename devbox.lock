@@ -1,51 +1,51 @@
 {
   "lockfile_version": "1",
   "packages": {
-    "eslint@9.39.1": {
-      "last_modified": "2025-11-28T17:56:46Z",
-      "resolved": "github:NixOS/nixpkgs/24e915b36ca87d32777d766da3a3f4e3ce22cc98#eslint",
+    "eslint@9.39.2": {
+      "last_modified": "2025-12-27T03:48:10Z",
+      "resolved": "github:NixOS/nixpkgs/4eec65df50d796a8fd9c146a09b5007916ce376b#eslint",
       "source": "devbox-search",
-      "version": "9.39.1",
+      "version": "9.39.2",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/pbl1qdk6qp6x18x9f7x4hd46plyij2cc-eslint-9.39.1",
+              "path": "/nix/store/la50hv9vcigpag5lbqr7yli0sb1pqh7f-eslint-9.39.2",
               "default": true
             }
           ],
-          "store_path": "/nix/store/pbl1qdk6qp6x18x9f7x4hd46plyij2cc-eslint-9.39.1"
+          "store_path": "/nix/store/la50hv9vcigpag5lbqr7yli0sb1pqh7f-eslint-9.39.2"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/hpk8fnfyn33x38lh3mc9pvj1z18cbdgi-eslint-9.39.1",
+              "path": "/nix/store/59sdi9h7wlyfydzl30l0bmswlr19yhqk-eslint-9.39.2",
               "default": true
             }
           ],
-          "store_path": "/nix/store/hpk8fnfyn33x38lh3mc9pvj1z18cbdgi-eslint-9.39.1"
+          "store_path": "/nix/store/59sdi9h7wlyfydzl30l0bmswlr19yhqk-eslint-9.39.2"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/cqmsqq964vknimxin4hi2lz3ahnl1mxj-eslint-9.39.1",
+              "path": "/nix/store/q8f1nm64bkcmk4cpfsbrgqrk55m4crv5-eslint-9.39.2",
               "default": true
             }
           ],
-          "store_path": "/nix/store/cqmsqq964vknimxin4hi2lz3ahnl1mxj-eslint-9.39.1"
+          "store_path": "/nix/store/q8f1nm64bkcmk4cpfsbrgqrk55m4crv5-eslint-9.39.2"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/1c2jwl24xj1kz5hjx8hxl11z9sh38fkv-eslint-9.39.1",
+              "path": "/nix/store/mh2kj8m8lvkbgvb8ifiy0fsdjk5smmy3-eslint-9.39.2",
               "default": true
             }
           ],
-          "store_path": "/nix/store/1c2jwl24xj1kz5hjx8hxl11z9sh38fkv-eslint-9.39.1"
+          "store_path": "/nix/store/mh2kj8m8lvkbgvb8ifiy0fsdjk5smmy3-eslint-9.39.2"
         }
       }
     },
